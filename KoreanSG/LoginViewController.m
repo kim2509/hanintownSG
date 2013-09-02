@@ -238,7 +238,7 @@ heightForRowAtIndexPath:(NSIndexPath *)indexPath
     }
     else if ( indexPath.section == 1 )
     {
-        RegisterMemberViewController *registerMemberViewController = [[RegisterMemberViewController alloc] init];
+        RegisterMemberViewController *registerMemberViewController = [[RegisterMemberViewController alloc] initWithStyle:UITableViewStyleGrouped];
         [self.navigationController pushViewController:registerMemberViewController animated:YES];
         [registerMemberViewController release];
     }
