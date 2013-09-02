@@ -1,0 +1,215 @@
+-- 포맷정의.
+-- 업체번호|업체종류|업체명|대표 전화번호|휴대폰|전화1|전화2|주소|longitude|latitude|email|homepage
+-- 위/경도 얻는 방법   http://maps.google.com/maps/geo?q=주소&output=csv
+
+1|식당|식객|+65 6220 7119||||46A Tanjong Pagar Road Singapore 088465|103.844000|1.279470|||Y
+2|식당|식객2|+65 6254 8123||||275 Thomson Road, Singapore, 307645|103.842000|1.321200|||Y
+3|식당|1박2일(식객)|+65 6220 7119||||44/46 Tanjong Pagar Road Singapore 088465|103.844000|1.279360|||Y
+4|식당|강나루|+65 6538 2837||||35 Circular Road S(049391)|103.849000|1.286620|||Y
+5|식당|고려정|+65 6324 3120||||10 Anson Road, #02-59 International Plaza, Singapore 079903|103.710000|1.328560|||Y
+6|식당|궁|+65 6327 4555||||30 Raffles Place Shevron House #B1-03A singapore 048622|103.852000|1.284370|||Y
+7|식당|김씨네|+65 6462 2112||||265 Upper Thomson Road, Singapore 574392|103.834000|1.353010|||Y
+8|식당|김치익스프레스|+65 6222 3892||||163 Telok Ayer Street, Singapore 068616|103.848000|1.280260|||Y
+9|식당|꼬꼬나라|+65 6224 8186||||57 TRAS STREET #01-01 Singapore 078996|103.844000|1.277900|||Y
+10|식당|놀부항아리|+65 6884 9151||||181 orchard road#08-04/05|103.840000|1.300830|||Y
+11|식당|삼포갈비|+65 6324 3009||||Heritage Court, 46 Peck Seah Street, Singapore 079316|103.845000|1.278060|||Y
+12|식당|달인|+65 6225 1006||||17 Boon Tat Street, Singapore 069618|103.848000|1.281530|||Y
+13|식당|대박(스낵바)|+65 6884 4620||||8 Wilkie Road, #01-18 Wilki Edge, Singapore 228095|103.850000|1.302510|||Y
+14|식당|대장금|+65 6224 5525||||25 Shenton Way YESS Leisure, Singapore 068812|103.848000|1.275610|||Y
+15|식당|동방홍|+65 6327 9036||||92/94 Telok Ayer Street #01-03 S048472|103.849000|1.282650|||Y
+16|식당|동방홍2호점|||||465 Joo Chiat Road|103.905000|1.306780|||Y
+17|식당|둥지식당|+65 6345 4264||||222 East Coast Road S 428919|103.907000|1.307510|||Y
+18|식당|만나|+65 6227 7425||||101 Telok Ayer Street Singapore 068574|103.848000|1.281800|||Y
+19|식당|마루 Korean BBQ|+65 6235 7273||||27 Mohamed Sultan Road, Singapore 2|103.841000|1.293140|||Y
+20|식당|빨간돼지|+65 6220 7176||||93 Amoy Street, Singpore 069913|103.847000|1.281240|||Y
+21|식당|백두산|+65 6795 5277||||63 JURONG WEST CENTER #03-37|103.719000|1.345400|||Y
+22|식당|Kim's Family|+65 6465 0535||||17 Lorong Kilat|103.774000|1.340900|||Y
+23|식당|블루가든|+65 6224 0700||||50 Tiong Bahru Road singapore 168733|103.835000|1.284160|||Y
+24|식당|비비큐|||||West Coast Plaza, 154 West Coast Road, Singapore 127371|103.766000|1.303570|||Y
+25|식당|BQ KOREA|+65 6536 7703||||70 Telok Ayer Street, Singapore 048458|103.849000|1.283050|||Y
+26|식당|부강참치|+65 6237 4123||||28 Maxwell Road #01-06 ,Singapore 069120|103.846000|1.278120|||Y
+27|식당|사랑|+65 6221 6728||||87 Science Park Drive, #02-02 Singapore 118521|103.790000|1.287760|||Y
+28|식당|서울쿨|+65 6327 7761||||12 Gopeng street|103.844000|1.275150|||Y
+29|식당|수 레스토랑|+65 6235 0420||||14 Scotts Road #01-21 Singapore 228213|103.833000|1.307260|||Y
+30|식당|신라원|+65 6336 3113||||Suntec City Mall #03-010/012, 3 Temasek Boulevard, Singapore 038983|103.859000|1.295750|||Y
+31|식당|아원|+65 6336 4554||||5 Coleman Street, #04-01 Excelsior Hotel, Singapore 179805|103.850000|1.292160|||Y
+32|식당|아리랑 식당|+65 6221 1990||||103 Amoy Street Singapore 069913|103.847000|1.281660|||Y
+33|식당|야연식당|+65 6735 4232||||33 Mohamed Sultan Rd, #01-02, Singapore 238977|103.841000|1.292600|||Y
+34|식당|여울 레스토랑|+65 6251 0123||||165 Thomson rd,goldhill center, singapore 307618|103.844000|1.317760|||Y
+35|식당|오대양 회 전문점|+65 6396 5356||||76 Peck Seah Street S(079331)|103.845000|1.277310|||Y
+36|식당|우리나라 치킨|+65 6464 9282||||19 LORONG KILAT #01-02 S598120|103.774000|1.340880|||Y
+37|식당|장수 숯불갈비|+65 6337 8880||||8 Raffles Ave.Esplanade Mall#01-13A/B S(039802)|103.855000|1.290370|||Y
+38|식당|장원식당|+65 6532 6949||||44 Mosque Street#01-01 S(059522)|103.845000|1.284010|||Y
+39|식당|정가면옥|||||BLK20 HAVELOCK RD CENTRAL SQUARE #01,02,03|103.843000|1.288070|||Y
+40|식당|제주식당|+65 6333 0304||||38 Seah StreetS(188394)|103.855000|1.295900|||Y
+41|식당|좋은 사람들|+65 6221 0401||||177 Telok Ayer Street 068625|103.847000|1.279930|||Y
+42|식당|주막|+65 6466 7871||||144 upper bukit timah road, #04-01 beauty world centre, singapore 588177|103.777000|1.342160|||Y
+43|식당|주신정|+65 6464 0872||||451 Joo Chiat Road #01-01/02/03 Katong Junction, singapore 427664|103.905000|1.306880|||Y
+44|식당|주신정 1호점|+65 6464 0872||||27 West Coast Highway#01-18/19 Yess Centre Singapore 117867|103.780000|1.283010|||Y
+45|식당|주신정 2호점|+65 6447 9279||||1018 East Coast Parkway #02-01 S(449877)|103.916000|1.302090|||Y
+46|식당|중화각|+65 6224 4371||||38 Maxwell Road #01-03/04/05 Airview Building Singapore 069611|103.848000|1.281460|||Y
+47|식당|진미|+65 6327 4555||||30 Raffles Place, #B1-03A Chevron House, Singapore 048622|103.852000|1.284370|||Y
+48|식당|창 식당|+65 6473 9005||||Blk 18 Dempsey Road Singapore 249675|103.811000|1.305360|||Y
+49|식당|창 부기스|+65 6509 8900||||Iluma #04-04, 201 Victoria Street, Singapore 188067|103.854305|1.299639|||Y
+50|식당|초원식당|+65 6225 1317||||2 Peck Seah Street, Singapore 079305|103.845000|1.279190|||Y
+51|식당|치킨런|+65 6443 2144||||54 BAYSHORE ROAD #01-02 BAYSHORE PARK S469979|103.937000|1.311080|||Y
+52|식당|치킨업|+65 8553 9264||||48 Tanjong Pagar Road, Singapore 088469|103.844000|1.278390|||Y
+53|식당|코리아가든 식당|+65 6221 7153||||36 Tanjong Pagar Road, Singapore 088459|103.844000|1.279560|||Y
+54|식당|코코룰루|+65 8233 6000||||TANJONG PAGAR PLAZA #01-36|103.843000|1.275070|||Y
+55|식당|크라제버거|+65 6633 5051||||10 Bayfront Ave #B2-54 Marina Bay Sands, Singapore 018956|103.860000|1.284060|||Y
+56|식당|토기|+65 6221 0830||||11 Mosque Street, Singapore 059491|103.844000|1.283960|||Y
+57|식당|풀 하우스 식당|+65 6344 6244||||336 Tanjong Katong Road, Singapore 43|103.897000|1.303940|||Y
+58|식당|한가람|+65 6223 0373||||260 Orchard Road, #05-02B The Heeren,Singapore 238855|103.838000|1.302580|||Y
+59|식당|한국관|+65 6224 2881||||26 Tanjong Pagar Road, Singapore 088449|103.844000|1.279890|||Y
+60|식당|한국떡집|+65 6456 3456||||15 Woodlands Loop #01-33 Singapore 738322|103.809000|1.448700|||Y
+61|식당|한상|+65 6397 6752||||10 Sinaran Drive #03-33 Square 2 Singapore 307506|103.844000|1.320100|||Y
+62|식당|한풍|+65 6465 7806||||16 Cheong Chin Nam Road, Singapore 599740|103.775000|1.343310|||Y
+63|식당|함지박|+65 6423 1040||||76 Amoy Street Singapore 069895|103.847000|1.280430|||Y
+64|식당|향토골|+65 6220 7160||||165 Tanjong Pagar Road, Outram, singapore 088539|103.844000|1.277850|||Y
+65|식당|혜복한국식당(탄종파가)|+65 6223 9003||||44-46 Tanjong Pagar Road, Singapore 088465|103.844000|1.279360|||Y
+66|식당|혜복한국식당|+65 6735 4440||||60 Eu Tong Sen Street#03-01/02 S(059804)|103.845000|1.286560|||Y
+67|식당|호두나무|+65 6222 0502||||2 Everton Park #01-55 Singapore 081002|103.840000|1.277310|||Y
+68|식당|Bestbento|+65 8282 5779|||||-12345.000000|-12345.000000|order@FoodEx.com.sg|www.foodex.com.sg|Y
+69|식당|En Group Japanese Restaurant|+65 6735 2212||||207 River Valley Rd, #01-57 UE Square, Singapore 238275|103.841765|1.293035|||Y
+70|컨설팅/법률상담/구인구직|Korean BBQ|+65 6535 7765||||150 South Bridge Road #B2-09 Fook Hai Building Singapore 058727|103.846000|1.284980|||Y
+71|식당|Todai Singapore|+65 8421 9005||||2 Bayfront Avenue, #B2-01 Marina Bay Sands, Singapore 018972|103.860000|1.284350|||Y
+72|병원/클리닉|네이버 카이로프랙틱|+65 6336 5578||||9 Penang Road, #11-16/17 ParkMall, Singapore 238459|103.846000|1.297860|||Y
+73|병원/클리닉|래플스 병원|+65 6311 2087||||585 North Bridge Road, Rapples hospital, Singapore 188770|103.857000|1.301300|||Y
+74|병원/클리닉|바이탈 클리닉 카이로프랙틱|+65 6732 3738||||583 Orchard Rd, Singapore 238884|103.829000|1.306440|||Y
+75|병원/클리닉|코리안클리닉|+65 9113 2713||||50 Bukit Batok West Avenue 3 Singapore 659164|103.748000|1.352220|||Y
+76|병원/클리닉|Implantdontics 치과|+65 8386 9255||||1 Orchard Boulevard, #10-02 Camden medical Centre, singapore 248649|103.824000|1.303050|||Y
+77|병원/클리닉|Joy 여성 클리닉|+65 6737 0044||||Gleneagles Medical Centre #08-03/04, 6A Napier Road Singapore 258500|103.820000|1.307520|||Y
+78|병원/클리닉|Q&M 치과|+65 6732 2633||||176 Orchard Road the centrepoint #03-16/17/18/19 Singpaore 238843|103.840000|1.302020|||Y
+79|병원/클리닉|Rapha Chiropractic|+65 6777 1146||||154 WEST COAST ROAD #01-82 WEST COAST PLAZA,Singapore 127371|103.766000|1.303750|||Y
+80|병원/클리닉|Spine Care Chiropractic|+65 6333 5935||||Bukit Timah Plaza #02-27, 1 Jalan Anak Bukit, Singapore 588996|103.779000|1.338850|||Y
+81|병원/클리닉|Spine Concept|+65 9828 0011||||10 SINARAN DR. UNIT #08-16 SINGAPORE, 370678|103.779000|1.338850|||Y
+82|학교/학원|123 중국어 학원|+65 9109 1278||||271 Bukit Timah Road, Singapore 259708|103.836000|1.316500|||Y
+83|학교/학원|가나다학원|+65 6337 9179||||North Bridge Centre, 420 North Bridge Road, Singapore 188727|103.855000|1.296630|||Y
+84|학교/학원|가위바위보 중국어 학원|+65 8157 5798||||170 Upper Bukit Timah Road, Singapore 588179|103.776000|1.343210|||Y
+85|학교/학원|경희대태권도|+65 6469 7001||||144 Upper Bukit Timah Road #03-37 Beauty World Centre Singapore 588177|103.777000|1.342160||www.kyunghee.com.sg|Y
+86|학교/학원|김기현 PGA 프로골프|+65 9435 2231||||80 Rhu Cross, #01-05 Singapore 437437|103.871000|1.292060|||Y
+87|학교/학원|남유타 주립대 해외특별전형|+65 9733 0714|||||-12345.000000|-12345.000000|||Y
+88|학교/학원|대교눈높이|+65 9445 9588||||Blk 5 Serangoon Ave 2 #13-14 Sunglade Singapore 556130|103.871000|1.348440|ruth0319@naver.com|http://hankookchon.com/daekyo/|Y
+89|학교/학원|대한학원|+65 8157 6447||||18 Jalan Masjid #02-06 Kembangan Plaza Singapore 418944|103.914000|1.322470|||Y
+90|학교/학원|로드스타학원|+65 6836 5378||||19 Tanglin Road, #06-45 Tanglin Shopping Centre, Singapore 247909|103.826000|1.306750||cafe.daum.net/lodestaredu.com.sg|Y
+91|학교/학원|리딩타운|+65 9738 0964||||170 Upper Bukit Timah Road #08-01Bukit Timah Shopping Centre Singapore 588179|103.776000|1.342750|||Y
+92|학교/학원|베스트어학원(중국어)|+65 9772 0085|||||-12345.000000|-12345.000000|||Y
+93|학교/학원|서울에듀|+65 6235 5465|||||-12345.000000|-12345.000000|||Y
+94|학교/학원|아이비학원|+65 6737 2456||||545 Orchard Road, #15-02 Far East Shopping, Singapore 238882|103.830052|1.305599|||Y
+95|학교/학원|아트키즈 프리스쿨|+65 6456 8003||||67 Eu Chin Street, Tiong Bahru Community center, singapore 169715|103.832000|1.283890|enquiry@artskidz.com.sg|www.artskidz.com.sg|Y
+96|학교/학원|안나마리 아트|+65 6698 3260||||1 oxley rise #03-03 one oxley rise Singapore 238714|103.842000|1.299250|||Y
+97|학교/학원|엘란소마|+65 9222 8702||||180 Kitchener Road #05-01 City Square Mall, Singapore 208539|103.856000|1.311250|||Y
+98|학교/학원|일도태권도|+65 6468 9972||||170 Upper Bukit timah Road #B2-20 Bukit Timah Shopping Center Singapore 588179|103.776000|1.342750|||Y
+99|학교/학원|정상학원|+65 6336 8104||||170 Upper Bukit Timah Road, Bukit Timah Shopping Centre #14-02, Singapore 588179|103.776000|1.343210|||Y
+100|학교/학원|한2싱 유학|+65 6527 0944||||71 Choa Chu Kang Loop #12-15, Singapore 689373|103.745000|1.387590|ahnpr@yahoo.co.kr|http://han2sing.com/|Y
+101|학교/학원|Aplus Reading Lab|+65 6735 3909||||169B Thomson Road Goldhill Centre Singapore 307621|103.844000|1.317760|||Y
+102|학교/학원|Auston Institute|+65 9231 6149||||61 - 63 New Bridge Road Singapore 059405|103.847041|1.288032|||Y
+103|학교/학원|Berlitz|+65 6733 7472||||#16-01/02, Ngee Ann City Tower B, Singapore 238874|103.834185|1.303071|||Y
+104|학교/학원|Canadian Education College|+65 6336 0666||||1 Coleman Street, The Adelphi, #05-12 Singapore 179803|103.851096|1.291190|||Y
+105|학교/학원|Canadian Enrichment Club|+65 6336 0666|||||-12345.000000|-12345.000000|||Y
+106|학교/학원|Dimensions Internatioanl College|+65 6309 4244||||58, Lowland Road (Kovan MRT), Singapore 547453|103.882413|1.362623|||Y
+107|학교/학원|Edu Specialist|+65 8250 9220||||#03-03, 200 Jalan Sultan, Textile Centre, Singapore 199018|103.861476|1.303796|||Y
+108|학교/학원|GEOS 어학원|+65 6734 6833||||Thong Sia Bldg, 30 Bideford Road, Singapore 229922|103.837000|1.304330|||Y
+109|학교/학원|Global Top Edu|+65 6467 3250|||||-12345.000000|-12345.000000|||Y
+110|학교/학원|G-Study|+65 6466 1472||||170 Upper Bukit Timah Road #09-02 Timah Shopping Center Singapore 588179|103.776000|1.342750|||Y
+111|학교/학원|Halifax House 어학원|+65 6536 2281||||50 Market Street Singapore 048940|103.850000|1.284970|||Y
+112|학교/학원|Heartpower (TESOL)|+65 9187 3950||||50 Market Street, #10-01, Golden Shoe Carpark, Singapore 048940|103.850229|1.284236||http://www.hotcourses.kr|Y
+113|학교/학원|HSK Centre|+65 6858 9609||||587 Up Serangoon Rd, Crestar Building, Singapore 534564|103.874160|1.350779|||Y
+114|학교/학원|MDIS|+65 9677 4605||||501 Stirling Road, MDIS Unicampus, Singapore 148951|103.801429|1.297113|||Y
+115|학교/학원|NUS|+65 6338 8400||||21 Lower Kent Ridge Road, Singapore 119077|103.777616|1.298045|||Y
+116|학교/학원|Project Ace Learning Centre (PALC)|+65 9894 4744||||19 Jalan Masjid #01-01, Singapore 418945|103.912110|1.320315||http://palc.asia/singapore/index.html|Y
+117|학교/학원|Queening English|+65 6397 7083|||||-12345.000000|-12345.000000|||Y
+118|학교/학원|Reading Plus|+65 6467 1755||||170 Upper Bukit Timah Road #B2-01B Bukit Timah Shopping Center Singapore 588179|103.776000|1.342750|||Y
+119|학교/학원|Recas Academy|+65 6333 5771||||190 clemenceau avenue singapore 239924|103.844000|1.298200|||Y
+120|학교/학원|SATIB Prep 학원|+65 9118 7145||||545 Orchard Road, #14-2 Far East Shopping Centre, 238882|103.830052|1.305599|||Y
+121|학교/학원|Sky Chinese Reading Lab|+65 9084 0985||||#05-16, Tanglin Shopping Centre, Singapore 247909|103.827089|1.306293|||Y
+122|학교/학원|Sunny IQ 재능학원|+65 9276 8518||||200 Turf Club Road #04-100, Singapore 287994|103.793000|1.339120|||Y
+123|학교/학원|The Academy for English Language Teachers|+65 6221 3957||||133 Cecil Street, #10-01A Keck Seng Tower, Singapore 069535|103.848958|1.280330|||Y
+124|학교/학원|TMC|||||38C Jalan Pemimpin, (off Bishan Street 21), Singapore 577180|103.842055|1.347611|||Y
+125|학교/학원|Tropics 어학원|+65 6339 2621|||||-12345.000000|-12345.000000|||Y
+126|부동산|부동산 (Far East)|+65 6733 1787|||||-12345.000000|-12345.000000|||Y
+127|부동산|백호서비스오피스|+65 6226 3140||||10 Anson Road #23-14 International Plaza Singapore 079903|103.846129|1.275750|||Y
+128|부동산|삼주부동산|+65 9107 2143||||105 Cecil Street #06-01 The Octagon Singapore 069534|103.849222|1.280809|||Y
+129|부동산|우리부동산|+65 6648 3651|||||-12345.000000|-12345.000000|||Y
+130|부동산|하숙 싱가포르|+65 6744 9208||||Blk80 Jalan Daud, #05-01 Windy Heights, Singapore 419591|103.909772|1.326647|||Y
+131|부동산|Dave Yong|+65 9696 9033||||743 Lorong 5 Toa Payoh, Storhub Toa Payoh, Singapore 319457|103.852476|1.333235|||Y
+132|부동산|DTZ 부동산 (헨리 한)|+65 9784 2015|||||-12345.000000|-12345.000000|||Y
+133|부동산|DTZ 부동산 (Steve Kang)|+65 9029 5057|||||-12345.000000|-12345.000000|||Y
+134|부동산|Property Today|+65 6795 9596|||||-12345.000000|-12345.000000|||Y
+135|부동산|Remax 부동산|+65 8101 9992||||6 Ubi Road 1 #05-08 Wintech Centre Singapore 408726|103.893647|1.326514|||Y
+136|부동산|SG 부동산|+65 9100 1924||||18 Boon Lay Way, #09-102 TradeHub 21, Singapore 609966|103.752715|1.328427|||Y
+137|해외이사|LOM Logistics|+65 6841 8127||||#05-07, 57 Ubi Avenue 1, Ubi Centre, Singapore 408936|103.895186|1.324819|||Y
+138|해외이사|대한통운|+65 6744 8253|||||-12345.000000|-12345.000000|||Y
+139|해외이사|조선해운|+82 2 2031 7000|||||-12345.000000|-12345.000000|||Y
+140|해외이사|편리한 해외이사||||||-12345.000000|-12345.000000|||Y
+141|해외이사|Trion|+65 6221 2424|||||-12345.000000|-12345.000000|||Y
+142|여행사|골든벨 여행사|+65 6227 2740||||10 Anson Road #09-20 International Plaza Singapore 079903|103.846129|1.275750|||Y
+143|여행사|귀빈여행사|+65 6223 7022||||45A Kampong Bahru Road Singapore 169360|103.836260|1.276757|||Y
+144|여행사|룩싱가포르|+65 6342 0021|||||-12345.000000|-12345.000000|||Y
+145|여행사|스카이투어|+65 6291 9148|||||-12345.000000|-12345.000000|||Y
+146|여행사|싱투어|+65 6398 1936||||12 Haji Lane Singapore 189205|103.859506|1.300609|||Y
+147|여행사|씨앤에스 홀리데이|+65 9781 4759||||24 Peck Seah Street #05-06 Nehsons Building Singapore 079314|103.844886|1.278374|||Y
+148|여행사|엘리스 정|+65 9145 1144||||278 serangoon road 02-04, singapore 218105|103.854637|1.310315|||Y
+149|여행사|이화여행사|+65 6224 8825||||20 Maxwell Road, Maxwell House #02-15, Singapore 069113|103.844690|1.279088|||Y
+150|여행사|태명 여행사|+65 6224 6626||||24 Peck Seah Street #02-11 Nehsons Building Singapore 079314|103.844886|1.278374|||Y
+151|여행사|하나투어|+65 6222 4051||||25 Scotts Road, DFS Galleria Scottswalk Level 2, Singapore 228220|103.831512|1.307176|||Y
+152|여행사|한스투어|+65 6235 5580||||321 ORCHARD ROAD, #08-03 ORCHARD SHOPPING CENTRE, SINGAPORE 238866|103.837950|1.301575|||Y
+153|여행사|한싱여행사|+65 6732 0155||||401 Havelock Road #04-06 Miramar Hotel Singapore 169631|103.837514|1.288230|||Y
+154|여행사|S-Travel|+65 6221 5688||||80 Anson Road #01-04 Fuji Xerox Towers, Singapore 079907|103.843655|1.273260|||Y
+155|수퍼마켓/떡집/보조식품|골든벨 농산|+65 6220 5782||||10 Anson Road, #09-20, International Plaza, Singapore 079903|103.846129|1.275750|||Y
+156|수퍼마켓/떡집/보조식품|금산인삼공동구매|+65 9247 0603||||10 Anson Road, #23-14, International Plaza, Singapore 079903|103.846129|1.275750|||Y
+157|수퍼마켓/떡집/보조식품|김 오아시스 선식|+65 6221 1105||||Blk 4 Everton Park #01-38 Singapore 080005|103.839410|1.276702|||Y
+158|수퍼마켓/떡집/보조식품|다사랑김치|+65 6449 1022||||15 Woodlands Loop, #03-39, Singapore 738322|103.809168|1.448681|||Y
+159|수퍼마켓/떡집/보조식품|롯데마트|+65 6467 5525||||17 Lorong Kilat, Kilat Court, Singapore 598139|103.774214|1.340837|||Y
+160|수퍼마켓/떡집/보조식품|매일마트|+65 6742 7790||||154 JOO CHIAT ROAD SINGAPORE 427432|103.899564|1.313158|||Y
+161|수퍼마켓/떡집/보조식품|솔마트|+65 6734 0477||||8 Grange Road, #B1-08 Cathay Cineleisure Orchard, Singapore 239695|103.836427|1.301664|||Y
+162|수퍼마켓/떡집/보조식품|애터미쇼핑몰|+65 8382 9193|||||-12345.000000|-12345.000000|||Y
+163|수퍼마켓/떡집/보조식품|에스마트|+65 6224 7753||||34 Craig Road #02-10 Chinatown Plaza, Singapore 089673|103.842107|1.278862|||Y
+164|수퍼마켓/떡집/보조식품|진마트|+65 6774 1150||||8 Pandan Crescent, #03-03, UE Tech Park, Singapore 128464|103.758421|1.304993|||Y
+165|수퍼마켓/떡집/보조식품|코리아나 유통|+65 6324 5016||||163 Tras Street #01-01 Lian Huat Building Singapore 079024|103.844074|1.274808|||Y
+166|수퍼마켓/떡집/보조식품|한국종합 구판장|+65 6538 9801||||20 North Canal Road Singapore 048832|103.848318|1.286573|||Y
+167|수퍼마켓/떡집/보조식품|한국촌 인터넷 슈퍼마켓|+65 6538 9801|||||-12345.000000|-12345.000000|||Y
+168|수퍼마켓/떡집/보조식품|할인마트|+65 6366 0555||||30 Marsiling Industrial Eastate Road 5, Singapore 739211|103.782997|1.441874|||Y
+169|수퍼마켓/떡집/보조식품|해피해요|+65 6728 1851||||Blk 9003, Tampines Street 93, #02-178 Century Square, Singapore 528837|103.941376|1.339878|||Y
+170|수퍼마켓/떡집/보조식품|허벌라이프|+65 8264 3031|||||-12345.000000|-12345.000000|||Y
+171|수퍼마켓/떡집/보조식품|호도원|+65 8339 7520|||||-12345.000000|-12345.000000|||Y
+172|수퍼마켓/떡집/보조식품|Biotech (기능성 소금)|+65 6509 7904|||||-12345.000000|-12345.000000|||Y
+173|수퍼마켓/떡집/보조식품|Huber's Butchery|+65 9172 9351||||18A & 18B Dempsey Road, Singapore 249677|103.810801|1.305823|||Y
+174|수퍼마켓/떡집/보조식품|Swiss Butchery|+65 6468 7588||||30/32 Greenwood Avenue Singapore 289230|103.806599|1.331745|||Y
+175|미용|88 미용실|+65 6560 8842||||Blk372, West Avenue 5 Bukit Batok St 31, #01-372, Singapore 650372|103.751008|1.358763|||Y
+176|미용|경락스킨|+65 6734 6037||||22 Cavenage Road Grand Central Hotel #01-04 Singapore 229617|103.841884|1.301303|||Y
+177|미용|네오리브 미용실|+65 6397 6031||||10 Sinaran Drive #03-03 Square 2 Singapore 307506|103.844100|1.320685|||Y
+178|미용|라코코헤어|+65 6884 4544||||181, Orchard Road, #04-13, Singapore 238896|103.839945|1.300617|||Y
+179|미용|애터미|+65 8382 9193|||||-12345.000000|-12345.000000|||Y
+180|미용|오타쿠미용실|+65 6221 3045||||1 Tanjong Pagar Plaza, #01-45, Singapore 082001|103.842703|1.275151|||Y
+181|미용|이쁘다 네일|+65 6735 7073||||14 Scotts Road #05-07 Far East Plaza Singapore 228213|103.833921|1.307269|||Y
+182|미용|지원 미용실|+65 6836 3067||||501 Orchard Road #03-02 Wheelock Place Singapore 238880|103.830577|1.304704|||Y
+183|미용|헤어가가|+65 6737 9484||||304, Orchard Road, Lucky Plaza, #06-14, Singapore 238869|103.831081|1.306180|||Y
+184|미용|헤어두|+65 6323 4470||||2 Peck Seah Street, #01-02, Air View Bldg. Singapore 079305|103.844955|1.278892|||Y
+185|미용|헤어 플러스|+65 6235 2234||||14 Scotts Road #05-61 Far East Plaza Singapore 228213|103.833921|1.307269|||Y
+186|미용|Jade Facial Care|+65 6515 4131||||1 Jalan Anak Bukit Bukit Timah Plaza #B1-50, Singapore 588996|103.778603|1.338902|||Y
+187|미용|Salon B|+65 6836 5855||||1 Nassim Road, #02-03, Singapore 258458|103.826630|1.306897|||Y
+188|렌트카|미니버스콜|+65 8388 7249|||||-12345.000000|-12345.000000|||Y
+189|렌트카|Evergreen 렌트카|+65 6459 0990|||||-12345.000000|-12345.000000|||Y
+190|렌트카|Payless 렌트카|+65 9726 3488|||||-12345.000000|-12345.000000|||Y
+191|컨설팅/법률상담/구인구직|Edisia|+65 9728 5758||||11 New Bridge Road #04-01|103.848000|1.288830|||Y
+192|컨설팅/법률상담/구인구직|국제 컨설팅|+65 6222 9971|||||-12345.000000|-12345.000000|||Y
+193|컨설팅/법률상담/구인구직|정답 컨설팅|+65 8228 9717||||120 lower delta road #06-01 the cendex center singapore 169208|103.822622|1.279994|||Y
+194|컨설팅/법률상담/구인구직|종합 컨설팅|+65 6372 1785||||10 Anson Road #22-05A International Singapore 079903|103.846129|1.275750|||Y
+195|컨설팅/법률상담/구인구직|한식창업전문 컨설팅|+65 9298 5414||||150, South Bridge Road, #B2-09, Fook Hai Building, Singapore 058727|103.846377|1.284949|||Y
+196|컨설팅/법률상담/구인구직|Bidinform|+65 070-7018-2986||||69 Choa Chu Kang Loop #03-09 Northvale Singapore 689672|103.848399|1.278883|||Y
+197|컨설팅/법률상담/구인구직|JAC Singapore|+65 6411 0304||||138, Robinson Road, #15-00, THe Corporate Office, Singapore 068906|103.826630|1.306897|||Y
+198|컨설팅/법률상담/구인구직|Leekim 컨설팅|+65 6633 5051||||10, Anson Road, #23-14, International Plaza, Singapore 079903|103.846129|1.275750|||Y
+199|컨설팅/법률상담/구인구직|NETTOWON|+65 6337 2287||||1 NORTH BRIDGE ROAD 15-01 HIGH STREET CENTRE, 179094, Singapore|103.849247|1.290171|||Y
+200|디자인/인테리어|아트페이지|+65 6333 4681||||No. 17, Kreta Ayer Road, Singapore 088989|103.842297|1.280334|||Y
+201|디자인/인테리어|D&C Inch|+65 6365 5630||||317 OUTRAM ROAD #02-44, CONCORDE SHOPPING CENTRE, SINGAPORE 169075|103.834051|1.289117|||Y
+202|기타|결혼 정보회사 선우|+65 6737 8884|||||-12345.000000|-12345.000000|||Y
+203|기타|봉봉 노래방|+65 6225 9113||||34 Craig Road #01-01 Chinatown Plaza Singapore 089673|103.842107|1.278862|||Y
+204|기타|비바 가족 노래방|+65 9476 2347||||Tanjong Pagar 56/58, Tra Street #01-01, Singapore 078996|103.844480|1.278032|||Y
+205|기타|영광교회|+65 9770 0103||||190, Macpherson Road, Wisma Gulab Bldg, #03-08, Singapore 348548|103.874411|1.329401|||Y
+206|기타|청정에어컨|+65 9222 9022||||50 Lorong 40 Geylang #06-29 Singapore 398074|103.889506|1.312721|||Y
+207|기타|Computer A/S 기사|+65 8180 0542|||||-12345.000000|-12345.000000|||Y
+208|기타|JIA CHIA MANAGEMENT|+65 9008 6250||||20 Maxwell Road Maxwell House #09-01 Singapore 069113|103.844690|1.279088|||Y
+209|기타|ONEIP TV|+65 6887 5645||||10 Anson Road #23-14A, International Plaza, Singapore 079903|103.846129|1.275750|||Y
+210|기타|SkyOn TV|+65 6223 0720|||||-12345.000000|-12345.000000|||Y
+211|식당|왕대박||||||-12345.000000|0.000000|||Y
