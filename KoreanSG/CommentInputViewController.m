@@ -8,6 +8,7 @@
 
 #import "CommentInputViewController.h"
 #import <QuartzCore/QuartzCore.h>
+#import "common.h"
 
 @implementation CommentInputViewController
 
@@ -57,6 +58,13 @@
     self.view.backgroundColor = [UIColor blackColor];
     
     inputComment = [[UITextView alloc] initWithFrame:CGRectMake(10, 10, 300, 180)];
+    
+    if ( [DYViewController isRetinaDisplay] )
+    {
+        inputComment.frame = CGRectMake(inputComment.frame.origin.x, inputComment.frame.origin.y,
+                                       inputComment.frame.size.width, inputComment.frame.size.height + 90 );
+    }
+    
     self.inputComment.font = [UIFont systemFontOfSize:16];
     self.inputComment.contentInset = UIEdgeInsetsMake(4,8,0,0);
     

@@ -53,6 +53,14 @@
     [super viewDidLoad];
     
     UIView *mainView = [[UIView alloc] initWithFrame:CGRectMake(20, 47, 280, 350)];
+    
+    if ( [DYViewController isRetinaDisplay] )
+    {
+        mainView.frame = CGRectMake(mainView.frame.origin.x, mainView.frame.origin.y,
+                                    mainView.frame.size.width, mainView.frame.size.height + 90 );
+    }
+    
+    
     mainView.backgroundColor = [UIColor whiteColor];
     
     UIView *backgroundView = [[UIView alloc] initWithFrame:CGRectMake(0, 20, 280, 24)];
@@ -89,6 +97,12 @@
     [titleView release];
     
     myTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 44, 280, 296)];
+    if ( [DYViewController isRetinaDisplay] )
+    {
+        myTableView.frame = CGRectMake(myTableView.frame.origin.x, myTableView.frame.origin.y,
+                                    myTableView.frame.size.width, myTableView.frame.size.height + 90 );
+    }
+    
 	myTableView.delegate = self;
 	myTableView.dataSource = self;
     [mainView addSubview:myTableView];

@@ -25,5 +25,6 @@
 
 + (void) setBoardCategoryList:(NSMutableArray *) list;
 +(NSMutableArray *) getBoardCategoryList:(NSString *) boardName showOptional:(BOOL) bShowOptional;
++(BOOL) isRetinaDisplay;
 
 @end

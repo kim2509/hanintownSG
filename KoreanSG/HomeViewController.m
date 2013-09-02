@@ -75,8 +75,11 @@ static NSUInteger kNumberOfPages = 5;
     
     tableData = [[NSMutableArray alloc] init];
     
-//    myTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 160, 320, 256)];
-    myTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, 320, 416)];
+    if ( [DYViewController isRetinaDisplay] )
+        myTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, 320, 506)];
+    else
+        myTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, 320, 416)];
+        
 	myTableView.delegate = self;
 	myTableView.dataSource = self;
 	[self.view addSubview:myTableView];

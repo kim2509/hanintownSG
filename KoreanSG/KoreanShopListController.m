@@ -47,7 +47,11 @@ currentLocation, searchBar, selectedIndexPath, mapButton, locationManager, tempS
     
     [self addTabButtons];
     
-	myTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 42, 320, 331)];
+    if ( [DYViewController isRetinaDisplay])
+        myTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 42, 320, 421)];
+    else
+        myTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 42, 320, 331)];
+    
 	myTableView.delegate = self;
 	myTableView.dataSource = self;
 	[self.view addSubview:myTableView];
@@ -774,7 +778,11 @@ currentLocation, searchBar, selectedIndexPath, mapButton, locationManager, tempS
 
 -(void) tabButton1Clicked:(id) sender
 {
-    myTableView.frame = CGRectMake(0, 42, 320, 331);
+    if ( [DYViewController isRetinaDisplay] )
+        myTableView.frame = CGRectMake(0, 42, 320, 421);
+    else
+        myTableView.frame = CGRectMake(0, 42, 320, 331);
+    
     [self.navigationController.view addSubview:toolbar];
     self.navigationItem.rightBarButtonItem = mapButton;
     
@@ -820,7 +828,11 @@ currentLocation, searchBar, selectedIndexPath, mapButton, locationManager, tempS
 
 -(void) tabButton2Clicked:(id) sender
 {
-    myTableView.frame = CGRectMake(0, 42, 320, 331);
+    if ( [DYViewController isRetinaDisplay] )
+        myTableView.frame = CGRectMake(0, 42, 320, 421);
+    else
+        myTableView.frame = CGRectMake(0, 42, 320, 331);
+    
     [self.navigationController.view addSubview:toolbar];
     UIBarButtonItem *flexibleSpace = [[UIBarButtonItem alloc] 
                                       initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
@@ -861,7 +873,11 @@ currentLocation, searchBar, selectedIndexPath, mapButton, locationManager, tempS
 -(void) tabButton3Clicked:(id) sender
 {
     [self.toolbar removeFromSuperview];
-    myTableView.frame = CGRectMake(0, 42, 320, 375);
+    
+    if ( [DYViewController isRetinaDisplay] )
+        myTableView.frame = CGRectMake(0, 42, 320, 465);
+    else
+        myTableView.frame = CGRectMake(0, 42, 320, 375);
     
     self.navigationItem.rightBarButtonItem = nil;
         

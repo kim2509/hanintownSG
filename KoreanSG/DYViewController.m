@@ -167,6 +167,14 @@ static NSMutableArray *boardCategoryList;
     return list;
 }
 
++(BOOL) isRetinaDisplay
+{
+    int height = [[UIScreen mainScreen] bounds].size.height;
+    if ( height == 568 )
+        return YES;
+    else
+        return NO;
+}
 
 - (void) viewWillDisappear:(BOOL)animated
 {

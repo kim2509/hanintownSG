@@ -23,6 +23,13 @@
     [super viewDidLoad];
     	    
     mapView = [[MKMapView alloc] initWithFrame:CGRectMake(0, 0, 320, 372)];
+    
+    if ( [DYViewController isRetinaDisplay] )
+    {
+        mapView.frame = CGRectMake(mapView.frame.origin.x, mapView.frame.origin.y,
+                                       mapView.frame.size.width, mapView.frame.size.height + 90 );
+    }
+    
     mapView.delegate = self;
     
     [self setTitle:@"지도 뷰"];
