@@ -90,6 +90,13 @@
     self.title = subject;
     
     boardWebView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, 320, 376)];
+    
+    if ( [DYViewController isRetinaDisplay] )
+    {
+        boardWebView.frame = CGRectMake(boardWebView.frame.origin.x, boardWebView.frame.origin.y,
+                                       boardWebView.frame.size.width, boardWebView.frame.size.height + 90 );
+    }
+    
     [self.view addSubview:boardWebView];
     
     NSString *urlString = Constants.boardContentURL;
@@ -166,6 +173,13 @@
 -(void) addCommentView
 {
     commentView = [[UIView alloc] initWithFrame:CGRectMake(0, 376, 320, 40)];
+    
+    if ( [DYViewController isRetinaDisplay] )
+    {
+        commentView.frame = CGRectMake(commentView.frame.origin.x, commentView.frame.origin.y + 90 ,
+                                        commentView.frame.size.width, commentView.frame.size.height );
+    }
+    
     [commentView setBackgroundColor:[UIColor colorWithHexString:@"#EBEDF3"]];
     
     commentField = [[UITextField alloc] initWithFrame:CGRectMake(5, 5, 255, 30)];

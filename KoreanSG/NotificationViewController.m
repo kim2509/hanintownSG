@@ -57,6 +57,13 @@
     self.title = @"알림센터";
     
     self.webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, 320, 420)];
+    
+    if ( [DYViewController isRetinaDisplay] )
+    {
+        webView.frame = CGRectMake(webView.frame.origin.x, webView.frame.origin.y,
+                                       webView.frame.size.width, webView.frame.size.height + 90 );
+    }
+    
     [self.view addSubview:webView];
     [webView release];
     

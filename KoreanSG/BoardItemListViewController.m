@@ -44,6 +44,13 @@
     // Do any additional setup after loading the view.
     
     self.boardWebView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 40, 320, 376)];
+    
+    if ( [DYViewController isRetinaDisplay] )
+    {
+        boardWebView.frame = CGRectMake(boardWebView.frame.origin.x, boardWebView.frame.origin.y,
+                                       boardWebView.frame.size.width, boardWebView.frame.size.height + 90 );
+    }
+    
     [self.view addSubview:boardWebView];
     [boardWebView release];
     

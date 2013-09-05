@@ -13,8 +13,8 @@
 #define ErrCodeSuccess @"0000"
 #define ErrCodeFail @"9999"
 
-//#define ServerUrl @"http://www.hanintownsg.com"
-#define ServerUrl @"http://localhost:8888"
+#define ServerUrl @"http://www.hanintownsg.com"
+//#define ServerUrl @"http://192.168.10.105:8888"
 
 #define SCSessionStateChangedNotification @"com.facebook.Scrumptious:SCSessionStateChangedNotification"
 

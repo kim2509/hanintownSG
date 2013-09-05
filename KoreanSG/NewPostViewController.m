@@ -107,6 +107,13 @@
     [separator release];
 
     self.inputTextView = [[UITextView alloc] initWithFrame:CGRectMake(0, 45, 300, 100)];
+    
+    if ( [DYViewController isRetinaDisplay] )
+    {
+        inputTextView.frame = CGRectMake(inputTextView.frame.origin.x, inputTextView.frame.origin.y ,
+                                         inputTextView.frame.size.width, inputTextView.frame.size.height + 90 );
+    }
+    
     [self.inputTextView release];
     inputTextView.font = [UIFont systemFontOfSize:16];
     
@@ -127,6 +134,13 @@
     [postTitleField becomeFirstResponder];
     
     customToolBar = [[UIView alloc] initWithFrame:CGRectMake(0, 160, 320, 260)];
+    
+    if ( [DYViewController isRetinaDisplay] )
+    {
+        customToolBar.frame = CGRectMake(customToolBar.frame.origin.x, customToolBar.frame.origin.y + 90 ,
+                                       customToolBar.frame.size.width, customToolBar.frame.size.height );
+    }
+    
     customToolBar.backgroundColor = [UIColor colorWithHexString:@"#D3D1D2"];
     [self.view addSubview:customToolBar];
     
@@ -492,6 +506,7 @@
     if ( optionView == nil )
     {
         optionView = [[UIView alloc] initWithFrame:CGRectMake(0, 423, 320, 263)];
+        
         [self.view addSubview:optionView];
         
         UIButton *btnTakePicture = [UIButton buttonWithType:UIButtonTypeRoundedRect];
@@ -508,6 +523,12 @@
     }
     else {
         optionView.frame = CGRectMake(0, 423, 320, 263);
+    }
+    
+    if ( [DYViewController isRetinaDisplay] )
+    {
+        optionView.frame = CGRectMake(optionView.frame.origin.x, optionView.frame.origin.y + 90 ,
+                                      optionView.frame.size.width, optionView.frame.size.height);
     }
     
     optionView.backgroundColor = [UIColor colorWithHexString:@"#D3D1D2"];
@@ -620,6 +641,12 @@
     }
     else {
         picturesTableView.frame = CGRectMake(0, 423, 320, 262);
+    }
+    
+    if ( [DYViewController isRetinaDisplay] )
+    {
+        picturesTableView.frame = CGRectMake(picturesTableView.frame.origin.x, picturesTableView.frame.origin.y + 90 ,
+                                      picturesTableView.frame.size.width, picturesTableView.frame.size.height);
     }
     
     CGRect frame = picturesTableView.frame;

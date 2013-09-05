@@ -75,6 +75,13 @@
     
     
     UITableView *myTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, 320, 416) style:UITableViewStyleGrouped];
+    
+    if ( [DYViewController isRetinaDisplay] )
+    {
+        myTableView.frame = CGRectMake(myTableView.frame.origin.x, myTableView.frame.origin.y,
+                                       myTableView.frame.size.width, myTableView.frame.size.height + 90 );
+    }
+    
 	myTableView.delegate = self;
 	myTableView.dataSource = self;
 	[self.view addSubview:myTableView];

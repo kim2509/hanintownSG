@@ -176,6 +176,13 @@
     [senderField release];
 
     messageView = [[UITextView alloc] initWithFrame:CGRectMake(2, 45, 300, 150)];
+    
+    if ( [DYViewController isRetinaDisplay] )
+    {
+        messageView.frame = CGRectMake(messageView.frame.origin.x, messageView.frame.origin.y,
+                                       messageView.frame.size.width, messageView.frame.size.height + 90 );
+    }
+    
     messageView.font = [UIFont systemFontOfSize:16];
     [self.view addSubview:messageView];
     
