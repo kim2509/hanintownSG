@@ -57,7 +57,7 @@ static TransactionManager *TransactionManagerInstance;
     [reqDict setObject:[dataManager metaInfoString:@"USER_DEVICE_TOKEN"] forKey:@"userDeviceToken"];
     [reqDict setObject:[dataManager metaInfoString:@"NICKNAME"] forKey:@"nickName"];
     [reqDict setObject:[[UIDevice currentDevice] systemVersion] forKey:@"iOSVersion"];
-    [reqDict setObject:[[UIDevice currentDevice] uniqueIdentifier] forKey:@"udid"];
+    [reqDict setObject:[[[UIDevice currentDevice] identifierForVendor] UUIDString] forKey:@"udid"];
     [reqDict setObject:[Constants getClientVersion] forKey:@"ClientVersion"];
     
     [reqDict release];
@@ -492,7 +492,7 @@ static TransactionManager *TransactionManagerInstance;
     [request addPostValue:[dataManager metaInfoString:@"USER_DEVICE_TOKEN"] forKey:@"userDeviceToken"];
     [request addPostValue:[dataManager metaInfoString:@"NICKNAME"] forKey:@"nickName"];
     [request addPostValue:[[UIDevice currentDevice] systemVersion] forKey:@"iOSVersion"];
-    [request addPostValue:[[UIDevice currentDevice] uniqueIdentifier] forKey:@"udid"];
+    [request addPostValue:[[[UIDevice currentDevice] identifierForVendor] UUIDString] forKey:@"udid"];
     [request addPostValue:[Constants getClientVersion] forKey:@"ClientVersion"];
     
     [request addPostValue:[dict objectForKey:@"subject"] forKey:@"subject"];
@@ -639,7 +639,7 @@ static TransactionManager *TransactionManagerInstance;
     [request addPostValue:[dataManager metaInfoString:@"USER_DEVICE_TOKEN"] forKey:@"userDeviceToken"];
     [request addPostValue:[dataManager metaInfoString:@"NICKNAME"] forKey:@"nickName"];
     [request addPostValue:[[UIDevice currentDevice] systemVersion] forKey:@"iOSVersion"];
-    [request addPostValue:[[UIDevice currentDevice] uniqueIdentifier] forKey:@"udid"];
+    [request addPostValue:[[[UIDevice currentDevice] identifierForVendor] UUIDString] forKey:@"udid"];
     [request addPostValue:[Constants getClientVersion] forKey:@"ClientVersion"];
     
     [request addPostValue:[dict objectForKey:@"bID"] forKey:@"bID"];

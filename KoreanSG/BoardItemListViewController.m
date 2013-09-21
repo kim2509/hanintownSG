@@ -260,7 +260,7 @@
         [request addPostValue:[dataManager metaInfoString:@"USER_DEVICE_TOKEN"] forKey:@"userDeviceToken"];
         [request addPostValue:[dataManager metaInfoString:@"NICKNAME"] forKey:@"nickName"];
         [request addPostValue:[[UIDevice currentDevice] systemVersion] forKey:@"iOSVersion"];
-        [request addPostValue:[[UIDevice currentDevice] uniqueIdentifier] forKey:@"udid"];
+        [request addPostValue:[[[UIDevice currentDevice] identifierForVendor] UUIDString] forKey:@"udid"];
         [request addPostValue:[Constants getClientVersion] forKey:@"ClientVersion"];
         
         [request addPostValue:[dict objectForKey:@"subject"] forKey:@"subject"];
@@ -621,7 +621,7 @@
         NSString *urlString = Constants.searchBoardURL;
         NSString *body = [NSString stringWithFormat: @"searchKeywordType=%@&searchKeyword=%@&udid=%@&userID=%@&boardName=%@", 
                           (searchOption.selectedSegmentIndex == 0) ? @"CONTENT":@"AUTHOR" , searchField.text,
-                          [[UIDevice currentDevice] uniqueIdentifier],
+                          [[[UIDevice currentDevice] identifierForVendor] UUIDString],
                           [[DataManager sharedDataManager] metaInfoString:@"USER_ID"], boardName];
         
         NSMutableURLRequest *request = [[NSMutableURLRequest alloc]initWithURL: [NSURL URLWithString:urlString]];

@@ -70,7 +70,7 @@
     NSString *urlString = Constants.notificationListURL;
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc]initWithURL: [NSURL URLWithString:urlString]];
     
-    NSString *body = [NSString stringWithFormat: @"udid=%@&userID=%@", [[UIDevice currentDevice] uniqueIdentifier] , 
+    NSString *body = [NSString stringWithFormat: @"udid=%@&userID=%@", [[[UIDevice currentDevice] identifierForVendor] UUIDString] , 
                       [[DataManager sharedDataManager] metaInfoString:@"USER_ID"]];
     
     NSLog(@"UserINFO:%@", body );

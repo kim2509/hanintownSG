@@ -101,7 +101,7 @@
     
     NSString *urlString = Constants.boardContentURL;
     NSString *body = [NSString stringWithFormat: @"postID=%@&udid=%@&userID=%@&nickName=%@&boardName=%@", 
-                      self.postID, [[UIDevice currentDevice] uniqueIdentifier] , 
+                      self.postID, [[[UIDevice currentDevice] identifierForVendor] UUIDString] ,
                       [[DataManager sharedDataManager] metaInfoString:@"USER_ID"],
                       [[DataManager sharedDataManager] metaInfoString:@"NICKNAME"], boardName];
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc]initWithURL: [NSURL URLWithString:urlString]];
@@ -687,7 +687,7 @@
 {
     NSString *urlString = Constants.boardContentURL;
     NSString *body = [NSString stringWithFormat: @"postID=%@&udid=%@&userID=%@&nickName=%@&boardName=%@", 
-                      self.postID, [[UIDevice currentDevice] uniqueIdentifier] , 
+                      self.postID, [[[UIDevice currentDevice] identifierForVendor] UUIDString] , 
                       [[DataManager sharedDataManager] metaInfoString:@"USER_ID"],
                       [[DataManager sharedDataManager] metaInfoString:@"NICKNAME"], boardName];
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc]initWithURL: [NSURL URLWithString:urlString]];
